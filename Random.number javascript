@@ -1,0 +1,14 @@
+// MadBlanks-A random combination of MadLibs & WordBlanks
+let adjectiveList=["adorable","blushing","clever","dangerous","beautiful","meaningless","gorgeous","sleeveless","obnoxious","colorful"];
+let nounList=["dog","nova","cat","teleporter","bird","choo choo train","fish","hydraulic dam","microscope","atomic nucleus"];
+let verbList=["exploded","collapsed","shrank","warped","dropped","flew","hovered","dug","minced","baked"];
+let adverbList=["violently","exponentially","wondrously","unexpectedly","fantastically","surprisingly","astonishingly","admirably","slowly","steadfastly"];
+
+var anAdjective = adjectiveList[Math.round(Math.random()*10)];
+var aNoun = nounList[Math.round(Math.random()*10)];
+var aVerb = verbList[Math.round(Math.random()*10)];
+var anAdverb= adverbList[Math.round(Math.random()*10)];
+
+madBlanks = "The "+anAdjective+" "+aNoun+" "+aVerb+" "+anAdverb + ".";
+
+console.log(madBlanks);
